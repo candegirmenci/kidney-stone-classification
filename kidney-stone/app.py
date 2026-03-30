@@ -10,8 +10,7 @@ import gdown   # Drive'dan model indirmek için eklendi
 # --- 1. SAYFA AYARLARI---
 st.set_page_config(page_title="Böbrek Taşı Teşhis Sistemi", page_icon="🔬", layout="wide")
 
-# Bilgisayarındaki ana klasör yolu (GitHub'da ./ kullanımı uygundur)
-BASE_PATH = './' 
+BASE_PATH = os.path.dirname(__file__)
 
 # Custom CSS
 st.markdown("""
