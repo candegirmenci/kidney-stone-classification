@@ -124,7 +124,7 @@ elif sayfa == "📊 Model Analizi":
     st.markdown("### 2.1. Veri Setinden Rastgele Örnekler")
 
     test_normal_dir = './proje_verileri/test/Normal'
-    test_stone_dir = './proje_verileri/test/Stone'
+    test_stone_dir = './proje_verileri/test/stone'
 
     col_img1, col_img2 = st.columns(2)
 
